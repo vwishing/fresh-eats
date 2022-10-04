@@ -1,0 +1,293 @@
+.navbar{
+    background: #84B252;
+    font-size: 1.5em;
+    color:#EEA793
+}
+
+.bg-light {
+    background-color: #5c8d28!important;
+}
+.navbar-brand.nb0 {
+    margin: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: #EEA793;
+    border-color: #EEA793;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    border: 1px solid #EEA793;
+}
+
+
+.btn{
+    font: 1em;
+    color: #793D81;
+    background-color: #EEA793;
+    border-color: #EEA793;
+    margin: 0.5em;
+}
+
+
+.btn:hover{
+    background-color: #FFE8E1;
+    color: #793D81;
+}
+
+.nav-item .active {
+    color: #EEA793;
+    
+}
+
+.navbarSupportedContent {
+    color: #EEA793;
+    
+}
+.active>.nav-link {
+    color: #EEA793;
+}
+
+.dropdown-menu .show{
+    text-decoration: none;
+    
+}
+
+h2 {
+    color: #5c8d28;
+}
+
+a {
+    color: #793D81;
+}
+
+.nb0 {
+    max-width: 35%;
+    height: auto;
+    /* margin-right:0pxImportant; */
+}
+
+.navbar-light .navbar-nav .nav-link > .active{
+    color: #EEA793;
+}
+.nav-link::after {
+    color: #793D81;
+}
+
+.form-login {
+    margin: 0.5em;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 2%;
+    border-left: 0.3em solid transparent;
+}
+
+.col-4{
+    text-align: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 1em;
+}
+
+.col-6{
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.col-6 p {
+    font: 2.5em bolder;
+    font-family: 'Quicksand', sans-serif;
+    color: #5E1F66;
+    /* margin: 0; */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: normal;
+    overflow: hidden;
+}
+
+
+
+.information {
+    background-color: #EEA793;
+    max-height: 50%;
+    overflow: hidden;
+
+}
+
+.information img {
+    padding: inherit;
+    max-width: 50%;
+      overflow: hidden;
+
+    /* height: auto; */
+}
+
+#get-started {
+    text-align:center;
+    background-color: #793D81;
+    padding: 3%;
+}
+
+#get-started h1 {
+    color:#EEA793;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.row{
+    justify-content: center;
+}
+
+h1 {
+    color: #5E1F66;
+    font: 4em bold;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* //MEAL PLAN */
+.card-deck { 
+    padding: 2%; 
+}
+ 
+.card-image-top{
+    width: 50%;
+    height: auto;
+}
+
+.card-steps col-lg-3 {
+    display: inline;
+    margin: none;
+}
+
+.card {
+    border: none;
+    color: #9C472E;
+} 
+
+
+/* // CAROUSEL MEAL PLAN */
+
+.card-deck {
+    padding: 2%;
+} 
+
+cards-wrapper {
+    display: flex;
+    justify-content: center;
+  } 
+.card {
+    margin: 3em;
+    border: none;
+  } 
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+
+  @media (min-width: 993px) {
+    .how-it-works-carousel {
+        display: none;
+    }
+} 
+
+@media (max-width: 992px) {
+    .h-i-w {
+        display: none;
+    }
+}
+
+#meal-plans{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.carousel-inner {
+    justify-content: center;
+}
+
+.carousel-item img{
+    width: 50%;
+    max-height: auto;
+    margin: auto; 
+    display: block;
+}
+
+
+@media (min-width: 993px) {
+    .meal-plans-carousel {
+        display: none;
+    }
+} 
+
+@media (max-width: 992px) {
+    .meals-grid {
+        display: none;
+    }
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default, span.icon-bar {
+color: #EEA793 !important;
+}
+
+footer {
+    background-color: #84B252;
+    text-align: center;
+    color: #5E1F66;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #EEA793;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(optional-images/hamburger.svg)
+}
